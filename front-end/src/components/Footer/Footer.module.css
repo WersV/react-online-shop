@@ -1,0 +1,14 @@
+@import "../../styles/theme.css";
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: var(--color-text-default);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p {
+  color: white;
+}
