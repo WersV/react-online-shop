@@ -1,13 +1,14 @@
 import styles from "./CurrencySelector.module.css";
+import { CURRENCIES } from "../../constants/currencies";
 
 export function CurrencySelector() {
   return (
     <select id="currency-select" className={styles.select}>
-      <option value="PLN" defaultValue>
-        PLN
+      <option value={CURRENCIES.PLN} defaultValue>
+        {CURRENCIES.PLN}
       </option>
-      <option value="USD">USD</option>
-      <option value="EUR">EUR</option>
+      <option value={CURRENCIES.USD}>{CURRENCIES.USD}</option>
+      <option value={CURRENCIES.EUR}>{CURRENCIES.EUR}</option>
     </select>
   );
 }

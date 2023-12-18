@@ -2,24 +2,14 @@
 
 .mainMenuWrapper {
   display: flex;
+  gap: 16px;
   width: 335px;
 }
 
 .mainMenuWrapper .list a {
-  padding: 0 8px;
   text-transform: uppercase;
   color: var(--color-text-grey);
   font-weight: bold;
-}
-
-.mainMenuWrapper .list:first-child a {
-  padding-left: 0;
-  padding-right: 8px;
-}
-
-.mainMenuWrapper .list:last-child a {
-  padding-right: 0;
-  padding-left: 8px;
 }
 
 .mainMenuWrapper .list a:global(.active) {

@@ -12,3 +12,10 @@ export const GENDERS = [
     path: "dziecko",
   },
 ];
+
+export const CATEGORIES = [
+  { path: "odziez", name: "Odzież" },
+  { path: "obuwie", name: "Obuwie" },
+  { path: "akcesoria", name: "Akcesoria" },
+  { path: "sport", name: "Sport" },
+];
