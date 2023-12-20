@@ -1,0 +1,20 @@
+.wrapper {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper .banner {
+  width: 300px;
+}
+
+.wrapper .banner p {
+  margin: 20px 0;
+}

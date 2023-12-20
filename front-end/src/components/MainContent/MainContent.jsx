@@ -10,7 +10,7 @@ export function MainContent() {
     <div className={styles.wrapper}>
       <Hero>
         <Promo>
-          <FullWidthButton />
+          <FullWidthButton> Sprawdź produkty! </FullWidthButton>
         </Promo>
       </Hero>
       <Bestsellers>
