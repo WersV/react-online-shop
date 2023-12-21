@@ -1,7 +1,11 @@
 .wrapper {
-  position: absolute;
-  top: 15%;
-  left: 10%;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 80px 16px;
+}
+
+.wrapper .promo {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,10 +15,10 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.wrapper .banner {
+.promo .banner {
   width: 300px;
 }
 
-.wrapper .banner p {
+.promo .banner p {
   margin: 20px 0;
 }

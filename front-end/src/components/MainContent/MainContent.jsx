@@ -10,11 +10,14 @@ export function MainContent() {
     <div className={styles.wrapper}>
       <Hero>
         <Promo>
-          <FullWidthButton> Sprawdź produkty! </FullWidthButton>
+          <FullWidthButton> Sprawdź produkty </FullWidthButton>
         </Promo>
       </Hero>
       <Bestsellers>
-        <Product />
+        <Product itemName="Biały sweter" price="199zł" />
+        <Product itemName="Biały sweter" price="199zł" />
+        <Product itemName="Biały sweter" price="199zł" />
+        <Product itemName="Biały sweter" price="199zł" />
       </Bestsellers>
     </div>
   );
