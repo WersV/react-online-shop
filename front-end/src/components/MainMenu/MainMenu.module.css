@@ -1,0 +1,18 @@
+@import "../../styles/theme.css";
+
+.mainMenuWrapper {
+  display: flex;
+  gap: 16px;
+  width: 335px;
+}
+
+.mainMenuWrapper .list a {
+  text-transform: uppercase;
+  color: var(--color-text-grey);
+  font-weight: bold;
+}
+
+.mainMenuWrapper .list a:global(.active) {
+  color: var(--color-text-default);
+  border-bottom: 3px solid var(--color-text-default);
+}

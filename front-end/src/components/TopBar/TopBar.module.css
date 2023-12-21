@@ -1,0 +1,16 @@
+.topBarWrapper {
+  max-width: 1600px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.topBarWrapper .iconWrapper {
+  display: flex;
+  justify-content: flex-end;
+  width: 335px;
+}

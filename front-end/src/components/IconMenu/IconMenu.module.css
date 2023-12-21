@@ -1,0 +1,30 @@
+@import "../../styles/theme.css";
+
+.iconWrapper {
+  display: flex;
+}
+
+.iconWrapper .heart {
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.iconWrapper .bag {
+  position: relative;
+  cursor: pointer;
+}
+
+.iconWrapper .bag .itemsNumber {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-yellow);
+  border-radius: 10px;
+  font-size: 8px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+}
+
+.wrapper img {
+  width: 255px;
+  height: 400px;
+}
+
+.wrapper .heart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+}

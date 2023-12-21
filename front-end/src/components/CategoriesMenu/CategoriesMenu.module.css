@@ -1,0 +1,23 @@
+@import "../../styles/theme.css";
+
+.categoriesWrapper {
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-theme-main);
+}
+
+.categoriesWrapper .menu {
+  display: flex;
+  gap: 16px;
+  width: 1600px;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.categoriesWrapper .menu li a {
+  color: var(--color-white);
+}
+
+.categoriesWrapper .menu li a:global(.active) {
+  text-decoration: underline;
+}
