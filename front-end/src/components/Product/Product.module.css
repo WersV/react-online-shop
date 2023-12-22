@@ -15,3 +15,7 @@
   height: 24px;
   margin: 8px;
 }
+
+.wrapper .productInfo {
+  color: red;
+}
