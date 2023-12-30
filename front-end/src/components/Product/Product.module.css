@@ -5,6 +5,7 @@
 .wrapper img {
   width: 255px;
   height: 400px;
+  object-fit: cover;
 }
 
 .wrapper .heart {
@@ -16,6 +17,6 @@
   margin: 8px;
 }
 
-.wrapper .productInfo {
+.wrapper .productInfo span {
   color: red;
 }

@@ -17,6 +17,7 @@
 .wrapper .img {
   width: 85px;
   height: 140px;
+  object-fit: cover;
 }
 
 .wrapper .details {

@@ -3,15 +3,15 @@ import PRODUCT_ICON from "../../assets/item.png";
 import REMOVE_ICON from "../../assets/removeBtn.svg";
 import SMALL_BAG_ICON from "../../assets/bagSmall.svg";
 
-export function FavoriteProduct({ heading, price }) {
+export function FavoriteProduct({ product }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.horizontalLine}></div>
-      <img className={styles.img} src={PRODUCT_ICON} alt="product image" />
+      <img className={styles.img} src={product.photos[0]} alt="product image" />
       <div className={styles.details}>
-        <h3>{heading}</h3>
+        <h3>{product.productName}</h3>
         <p>
-          Cena: <span>{price}</span>
+          Cena: <span>{product.pricePLN}zł</span>
         </p>
         <div className={styles.buttons}>
           <button>
@@ -25,7 +25,7 @@ export function FavoriteProduct({ heading, price }) {
         </div>
       </div>
       <div className={styles.price}>
-        <span>{price}</span>
+        <span>{product.pricePLN}zł</span>
       </div>
     </div>
   );

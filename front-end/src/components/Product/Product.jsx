@@ -1,17 +1,21 @@
+import { Link } from "react-router-dom";
+
 import styles from "./Product.module.css";
 
 import ITEM_ICON from "../../assets/item.png";
 import HEART_ICON from "../../assets/heart.svg";
 
-export function Product({ itemName, price }) {
+export function Product({ product }) {
   return (
-    <div className={styles.wrapper}>
-      <img src={ITEM_ICON} alt="item image" />
-      <img className={styles.heart} src={HEART_ICON} alt="heart icon" />
-      <div className={styles.productInfo}>
-        <h3>{itemName}</h3>
-        <span>{price}</span>
+    <Link>
+      <div className={styles.wrapper}>
+        <img src={product.photos[0]} alt="item image" />
+        <img className={styles.heart} src={HEART_ICON} alt="heart icon" />
+        <div className={styles.productInfo}>
+          <h3>{product.productName}</h3>
+          <span>{product.pricePLN}zł</span>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
