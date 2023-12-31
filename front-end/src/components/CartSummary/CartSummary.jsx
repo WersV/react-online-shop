@@ -4,19 +4,12 @@ import styles from "./CartSummary.module.css";
 import CAR_ICON from "../../assets/car.svg";
 
 export function CartSummary({ cartItems }) {
-  // let productsPrice = 0;
   const shipmentPrice = 49;
   let totalPrice = 0;
-
-  // cartItems.map((item) => {
-  //   productsPrice += item.pricePLN;
-  // });
 
   const productsPrice = cartItems.reduce((acc, currVal) => {
     return acc.pricePLN + currVal.pricePLN;
   });
-
-  console.log(productsPrice);
 
   if (productsPrice < 500) {
     totalPrice += productsPrice + shipmentPrice;

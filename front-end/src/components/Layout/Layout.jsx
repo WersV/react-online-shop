@@ -6,6 +6,7 @@ import styles from "./Layout.module.css";
 import { MainContent } from "../../views/MainContent/MainContent";
 import { Favorites } from "../../views/Favorites/Favorites";
 import { Cart } from "../../views/Cart/Cart.jsx";
+import { ProductsList } from "../../views/ProductsList/ProductsList.jsx";
 
 export function Layout() {
   return (
@@ -14,7 +15,8 @@ export function Layout() {
       <CategoriesMenu />
       {/* <MainContent /> */}
       {/* <Favorites /> */}
-      <Cart />
+      {/* <Cart /> */}
+      <ProductsList />
       <Footer />
     </div>
   );
