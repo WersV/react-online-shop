@@ -1,0 +1,29 @@
+@import "../../styles/theme.css";
+
+.wrapper {
+  width: 400px;
+}
+
+.wrapper .h2 {
+  margin-bottom: 16px;
+}
+
+.wrapper .summary .summaryLine {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.wrapper .summary .summaryLine:last-of-type {
+  font-weight: bold;
+}
+
+.wrapper .freeShipment {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 16px 0;
+  padding: 16px;
+  background-color: var(--color-grey);
+}

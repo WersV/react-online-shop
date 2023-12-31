@@ -1,0 +1,8 @@
+.wrapper {
+  background-color: var(--color-grey);
+  padding: 16px;
+}
+
+.wrapper h2 {
+  font-size: 24px;
+}
