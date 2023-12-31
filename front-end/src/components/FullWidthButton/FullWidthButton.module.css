@@ -8,6 +8,9 @@
   font-weight: bold;
   border: 0;
 }
+.wrapper.summary {
+  background-color: var(--color-text-default);
+}
 
 .wrapper span {
   text-transform: uppercase;

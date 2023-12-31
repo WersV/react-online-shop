@@ -1,9 +1,8 @@
-import styles from "./FavoriteProduct.module.css";
-import PRODUCT_ICON from "../../assets/item.png";
+import styles from "./CartProduct.module.css";
 import REMOVE_ICON from "../../assets/removeBtn.svg";
 import SMALL_BAG_ICON from "../../assets/bagSmall.svg";
 
-export function FavoriteProduct({ product }) {
+export function CartProduct({ product }) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.horizontalLine}></div>
@@ -17,10 +16,6 @@ export function FavoriteProduct({ product }) {
           <button>
             <img src={REMOVE_ICON} alt="remove icon" />
             <span>Usuń</span>
-          </button>
-          <button>
-            <img src={SMALL_BAG_ICON} alt="remove icon" />
-            <span>Dodaj do koszyka</span>
           </button>
         </div>
       </div>

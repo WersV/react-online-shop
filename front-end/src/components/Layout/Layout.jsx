@@ -3,8 +3,9 @@ import { CategoriesMenu } from "../CategoriesMenu/CategoriesMenu";
 import { TopBar } from "../TopBar/TopBar";
 
 import styles from "./Layout.module.css";
-import { MainContent } from "../MainContent/MainContent";
-import { Favorites } from "../Favorites/Favorites";
+import { MainContent } from "../../views/MainContent/MainContent";
+import { Favorites } from "../../views/Favorites/Favorites";
+import { Cart } from "../../views/Cart/Cart.jsx";
 
 export function Layout() {
   return (
@@ -12,7 +13,8 @@ export function Layout() {
       <TopBar />
       <CategoriesMenu />
       {/* <MainContent /> */}
-      <Favorites />
+      {/* <Favorites /> */}
+      <Cart />
       <Footer />
     </div>
   );
