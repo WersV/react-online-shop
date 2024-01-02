@@ -1,0 +1,17 @@
+.ulWrapper {
+  display: flex;
+  column-gap: 8px;
+}
+
+.ulWrapper li {
+  text-transform: uppercase;
+}
+
+.ulWrapper li.active {
+  font-weight: bold;
+}
+
+.ulWrapper li:not(:last-of-type)::after {
+  content: ">";
+  padding-left: 8px;
+}
