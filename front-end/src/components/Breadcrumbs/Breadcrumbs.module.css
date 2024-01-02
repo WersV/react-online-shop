@@ -5,6 +5,7 @@
 
 .ulWrapper li {
   text-transform: uppercase;
+  font-size: 12px;
 }
 
 .ulWrapper li.active {

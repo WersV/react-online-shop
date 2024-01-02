@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 
 import styles from "./Product.module.css";
 
-import ITEM_ICON from "../../assets/item.png";
 import HEART_ICON from "../../assets/heart.svg";
 
 export function Product({ product }) {
