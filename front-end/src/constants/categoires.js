@@ -14,8 +14,72 @@ export const GENDERS = [
 ];
 
 export const CATEGORIES = [
-  { path: "odziez", name: "Odzież" },
-  { path: "obuwie", name: "Obuwie" },
-  { path: "akcesoria", name: "Akcesoria" },
-  { path: "sport", name: "Sport" },
+  {
+    name: "Odzież",
+    path: "odziez",
+    subcategories: [
+      {
+        categoryName: "Koszulki",
+        path: "koszulki",
+      },
+      {
+        categoryName: "Swetry",
+        path: "swetry",
+      },
+      {
+        categoryName: "Spodnie",
+        path: "spodnie",
+      },
+    ],
+  },
+  {
+    name: "Obuwie",
+    path: "obuwie",
+    subcategories: [
+      {
+        categoryName: "Eleganckie",
+        path: "eleganckie",
+      },
+      {
+        categoryName: "Sportowe",
+        path: "sportowe",
+      },
+      {
+        categoryName: "Sneakersy",
+        path: "sneakersy",
+      },
+    ],
+  },
+  {
+    name: "Akcesoria",
+    path: "akcesoria",
+    subcategories: [
+      {
+        categoryName: "Torby",
+        path: "torby",
+      },
+      {
+        categoryName: "Zegarki",
+        path: "zegarki",
+      },
+    ],
+  },
+  {
+    name: "Sport",
+    path: "sport",
+    subcategories: [
+      {
+        categoryName: "Piłka nożna",
+        path: "pilkanozna",
+      },
+      {
+        categoryName: "Narty",
+        path: "narty",
+      },
+      {
+        categoryName: "Pływane",
+        path: "plywanie",
+      },
+    ],
+  },
 ];
