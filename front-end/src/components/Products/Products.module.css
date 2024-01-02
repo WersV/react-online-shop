@@ -1,11 +1,9 @@
 .wrapper {
-  display: flex;
-  flex-wrap: wrap;
   margin-top: 32px;
 }
 
 .h2 {
-  flex-basis: 100%;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -14,4 +12,5 @@
   flex-wrap: wrap;
   column-gap: 80px;
   row-gap: 48px;
+  width: 1260px;
 }

@@ -2,7 +2,7 @@ import { Product } from "../Product/Product";
 
 import styles from "./Products.module.css";
 
-export function Products() {
+export function Products({ children }) {
   const products = [
     {
       id: 1,
@@ -165,6 +165,7 @@ export function Products() {
         {products.map((product) => {
           return <Product key={product.id} product={product} />;
         })}
+        {children}
       </div>
     </div>
   );

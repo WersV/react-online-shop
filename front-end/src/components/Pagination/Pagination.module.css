@@ -1,0 +1,12 @@
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper .ul {
+  display: flex;
+  column-gap: 16px;
+}
+
+.wrapper .ul li {
+  font-size: 20px;
+}

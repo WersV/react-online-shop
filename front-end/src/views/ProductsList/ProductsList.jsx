@@ -11,8 +11,9 @@ export function ProductsList() {
       <ExpandableMenu />
       <div className={styles.mainContent}>
         <Breadcrumbs />
-        <Products />
-        <Pagination />
+        <Products>
+          <Pagination />
+        </Products>
       </div>
     </div>
   );

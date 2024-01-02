@@ -4,9 +4,5 @@
   column-gap: 48px;
   width: 100%;
   max-width: 1600px;
-  margin: 16px auto;
-}
-
-.wrapper .mainContent {
-  flex-grow: 1;
+  margin: 16px auto 64px auto;
 }
